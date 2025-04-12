@@ -130,6 +130,7 @@ def soundselect(mymodel, sound_id):
     return result_json
 
 
+"""
 def myselect(mymodel, customer_id):
     # session構築
     Session = sessionmaker(bind=engine)
@@ -157,7 +158,6 @@ def myselect(mymodel, customer_id):
     session.close()
     return result_json
 
-"""
 def myselectAll(mymodel):
     # session構築
     Session = sessionmaker(bind=engine)
@@ -176,8 +176,6 @@ def myselectAll(mymodel):
     # セッションを閉じる
     session.close()
     return result_json
-
-"""
 
 def myupdate(mymodel, values):
     # session構築
@@ -216,3 +214,6 @@ def mydelete(mymodel, customer_id):
     # セッションを閉じる
     session.close()
     return customer_id + " is deleted"
+
+"""
+
