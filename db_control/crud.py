@@ -1,4 +1,5 @@
 # uname() error回避
+import pandas as pd
 import platform
 print("platform", platform.uname())
 
