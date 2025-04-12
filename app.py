@@ -4,7 +4,7 @@ from pydantic import BaseModel
 import requests
 import pandas as pd
 import json
-from graphene import ObjectType, String, Int, List, Schema, Mutation, Field
+##　nakano dell ## from graphene import ObjectType, String, Int, List, Schema, Mutation, Field
 import os
 from db_control import crud, mymodels_MySQL
 from db_control.create_tables_MySQL import init_db
