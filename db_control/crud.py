@@ -1,5 +1,5 @@
 # uname() error回避
-import pandas as pd
+# import pandas as pd
 import platform
 print("platform", platform.uname())
 
@@ -157,7 +157,7 @@ def myselect(mymodel, customer_id):
     session.close()
     return result_json
 
-
+"""
 def myselectAll(mymodel):
     # session構築
     Session = sessionmaker(bind=engine)
@@ -177,6 +177,7 @@ def myselectAll(mymodel):
     session.close()
     return result_json
 
+"""
 
 def myupdate(mymodel, values):
     # session構築
